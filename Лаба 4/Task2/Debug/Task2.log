@@ -1,0 +1,3 @@
+﻿  Task2.cpp
+E:\Лаба ОАиП 4 2021\Task2\Task2.cpp(43,8): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  Task2.vcxproj -> E:\Лаба ОАиП 4 2021\Task1\Debug\Task2.exe

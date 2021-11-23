@@ -1,0 +1,3 @@
+﻿  Task9.cpp
+E:\Лаба ОАиП 4 2021\Task9\Task9.cpp(46,11): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  Task9.vcxproj -> E:\Лаба ОАиП 4 2021\Task1\Debug\Task9.exe

@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  test.cpp
+E:\Лаба ОАиП 5 2021\Лаба5\UnitTest5\test.cpp(16,2): warning C4244: аргумент: преобразование "double" в "unsigned __int64", возможна потеря данных
+E:\Лаба ОАиП 5 2021\Лаба5\UnitTest5\test.cpp(19,2): warning C4244: аргумент: преобразование "double" в "unsigned __int64", возможна потеря данных
+E:\Лаба ОАиП 5 2021\Лаба5\UnitTest5\test.cpp(22,2): warning C4244: аргумент: преобразование "double" в "unsigned __int64", возможна потеря данных
+E:\Лаба ОАиП 5 2021\Лаба5\UnitTest5\test.cpp(25,2): warning C4244: аргумент: преобразование "double" в "unsigned __int64", возможна потеря данных
+E:\Лаба ОАиП 5 2021\Лаба5\UnitTest5\test.cpp(28,2): warning C4244: аргумент: преобразование "double" в "unsigned __int64", возможна потеря данных
+  UnitTest5.vcxproj -> E:\Лаба ОАиП 5 2021\Лаба5\Debug\UnitTest5.exe
