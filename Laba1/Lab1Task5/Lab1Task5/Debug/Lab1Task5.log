@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\proga\Lab1Task5\Lab1Task5\main.cpp(14): error C4700: использована неинициализированная локальная переменная "expr"
+E:\proga\Lab1Task5\Lab1Task5\main.cpp(14): error C4700: использована неинициализированная локальная переменная "sube"

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>982</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="1" column="3">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="2">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="7" column="1">
+      <widget class="QPushButton" name="move_left">
+       <property name="text">
+        <string>Влево</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="rotate_left">
+       <property name="text">
+        <string>Поворот влево</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="sizeplus">
+       <property name="text">
+        <string>Увелич чление</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="move_down">
+       <property name="text">
+        <string>Вниз</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="rotate_right">
+       <property name="text">
+        <string>Поворот вправо</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="sizeminus">
+       <property name="text">
+        <string>Уменьш чление</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="move_up">
+       <property name="text">
+        <string>Вверх</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="move_right">
+       <property name="text">
+        <string>Вправо</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1" colspan="2">
+      <widget class="QPushButton" name="CanveModButton">
+       <property name="text">
+        <string>CanveMod</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="Square">
+       <property name="text">
+        <string>Площадь: </string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QLabel" name="SquareNum">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLabel" name="Perimetr">
+       <property name="text">
+        <string>Периметр:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QLabel" name="PerimetrNum">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLabel" name="CentrMass">
+       <property name="text">
+        <string>Центр массы:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="2">
+      <widget class="QLabel" name="CentrMassNum">
+       <property name="text">
+        <string>(0,0)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" rowspan="13">
+      <widget class="QGraphicsView" name="graphicsView"/>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="Star8Button">
+       <property name="text">
+        <string>Star8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="Star6Button">
+       <property name="text">
+        <string>Star6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="RectangleButton">
+       <property name="text">
+        <string>Rectangle</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="Star5Button">
+       <property name="text">
+        <string>Star5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="HexagonButton">
+       <property name="text">
+        <string>Hexagon</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="SquareButton">
+       <property name="text">
+        <string>Square</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="ParallelogramButton">
+       <property name="text">
+        <string>Parallelogram</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="RombButton">
+       <property name="text">
+        <string>Romb</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="CircleButton">
+       <property name="text">
+        <string>Circle</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="TriangleButton">
+       <property name="text">
+        <string>Triangle</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,9 +1,0 @@
-﻿  Test.cpp
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(30,27): warning C4018: <: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(63,27): warning C4018: <: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(78,27): warning C4018: <: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(125,36): warning C4018: >: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(177,23): warning C4018: <: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(194,28): warning C4018: <: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(204,23): warning C4018: <: несоответствие типов со знаком и без знака
-  Test.vcxproj -> E:\Лаба ОАиП 7 2021\Laba 7\Debug\Test.exe

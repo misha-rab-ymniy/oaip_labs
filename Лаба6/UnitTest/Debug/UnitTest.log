@@ -1,5 +1,0 @@
-﻿  test.cpp
-E:\Лаба ОАиП 6 2021\Лаба6\UnitTest\test.cpp(80,19): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-E:\Лаба ОАиП 6 2021\Лаба6\UnitTest\test.cpp(392,55): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-E:\Лаба ОАиП 6 2021\Лаба6\UnitTest\test.cpp(401,55): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-  UnitTest.vcxproj -> E:\Лаба ОАиП 6 2021\Лаба6\Debug\UnitTest.exe

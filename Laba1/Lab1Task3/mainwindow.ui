@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Date</string>
+  </property>
+  <widget class="QWidget" name="bday">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0" rowspan="9">
+       <widget class="QTableWidget" name="datesd">
+        <property name="lineWidth">
+         <number>2</number>
+        </property>
+        <column>
+         <property name="text">
+          <string>date</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>nextDay()</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>previousDay()</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>IsLeap()</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>WeekNumber()</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Duration()</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QDateEdit" name="getBirthday"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="openFile">
+        <property name="text">
+         <string>Открыть файл</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>До вашего дня рожения столько дней:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="birthdaylbl">
+        <property name="font">
+         <font>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="text">
+         <string>Введите свой день рождения:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLCDNumber" name="number"/>
+      </item>
+      <item row="6" column="1">
+       <widget class="QDateEdit" name="getDay2">
+        <property name="maximumDate">
+         <date>
+          <year>9990</year>
+          <month>12</month>
+          <day>31</day>
+         </date>
+        </property>
+        <property name="minimumDate">
+         <date>
+          <year>1752</year>
+          <month>11</month>
+          <day>1</day>
+         </date>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QPushButton" name="ChangeDate">
+        <property name="text">
+         <string>Изменить дату</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QDateEdit" name="getDay">
+        <property name="maximumDate">
+         <date>
+          <year>9990</year>
+          <month>12</month>
+          <day>31</day>
+         </date>
+        </property>
+        <property name="minimumDate">
+         <date>
+          <year>1752</year>
+          <month>11</month>
+          <day>1</day>
+         </date>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="NumDate">
+        <property name="text">
+         <string>Номер даты, которую нужно изменить</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QPushButton" name="AddDate">
+        <property name="text">
+         <string>Добавить дату</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="saveButton">
+        <property name="text">
+         <string>Сохранить</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

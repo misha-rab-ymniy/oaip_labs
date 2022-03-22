@@ -1,6 +1,0 @@
-﻿  MyString.cpp
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(44,27): warning C4018: <: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(55,27): warning C4018: <: несоответствие типов со знаком и без знака
-E:\Лаба ОАиП 7 2021\Laba 7\MyString\MyString.cpp(142,23): warning C4018: <: несоответствие типов со знаком и без знака
-MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
-E:\Лаба ОАиП 7 2021\Laba 7\Debug\MyString.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
