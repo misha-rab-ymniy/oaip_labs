@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1291</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="openButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>20</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>файл</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>631</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>1251</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Участник</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Очки</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Штраф</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1291</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
