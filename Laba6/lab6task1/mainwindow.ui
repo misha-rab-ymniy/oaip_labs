@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>731</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="10" column="0">
+      <widget class="QSpinBox" name="searchKey"/>
+     </item>
+     <item row="12" column="1">
+      <widget class="QPushButton" name="delet">
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2" rowspan="8">
+      <widget class="QTextBrowser" name="display"/>
+     </item>
+     <item row="9" column="0" colspan="2">
+      <widget class="QPushButton" name="postOrder">
+       <property name="text">
+        <string>Postorder</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0" colspan="2">
+      <widget class="QPushButton" name="preorder">
+       <property name="text">
+        <string>Preorder</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QSpinBox" name="key">
+       <property name="maximum">
+        <number>99</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0" colspan="2">
+      <widget class="QPushButton" name="inorder">
+       <property name="text">
+        <string>Inorder</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QSpinBox" name="deleteKey"/>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="search">
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0" colspan="2">
+      <widget class="QPushButton" name="insert">
+       <property name="text">
+        <string>Insert</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="data"/>
+     </item>
+     <item row="11" column="0" colspan="2">
+      <widget class="QPushButton" name="heightCalc">
+       <property name="text">
+        <string>HeightCalc</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
